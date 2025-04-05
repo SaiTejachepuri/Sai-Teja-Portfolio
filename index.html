@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiteja - Mechanical Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">SAITEJA</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sai-teja-chepuri-16b226257" target="_blank" aria-label="LinkedIn Profile">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="theme-toggle">
+        <button id="themeToggle" aria-label="Toggle theme">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+        </button>
+    </div>
+
+    <div class="preloader">
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <circle id="test" cx="40" cy="40" r="32"></circle>
+            </svg>
+        </div>
+        <div class="loader triangle">
+            <svg viewBox="0 0 86 80">
+                <polygon points="43 8 79 72 7 72"></polygon>
+            </svg>
+        </div>
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <rect x="8" y="8" width="64" height="64"></rect>
+            </svg>
+        </div>
+    </div>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Saiteja Chepuri</h1>
+                <h2>Mechanical Engineering Student</h2>
+                <div class="hero-description">
+                    <p class="typing-text">Specializing in:</p>
+                    <div class="dynamic-text">
+                        <span>CAD Design & Modeling</span>
+                        <span>Material Testing & Analysis</span>
+                        <span>Innovative Engineering Solutions</span>
+                        <span>Renewable Energy Systems</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="cta-button">Get In Touch</a>
+                    <a href="assets/SAITEJA RESUME.pdf" class="cta-button secondary" download>
+                        Download Resume <i class="fa-solid fa-download"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <i class="fa-solid fa-cube"></i>
+                    <div class="stat-info">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">CAD Projects</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-cogs"></i>
+                    <div class="stat-info">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Major Projects</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <i class="fa-solid fa-award"></i>
+                    <div class="stat-info">
+                        <span class="stat-number">9.13</span>
+                        <span class="stat-label">Diploma GPA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Scroll to explore</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-intro">Final year B.Tech Mechanical Engineering student at Vidya Jyothi Institute of Technology, with a strong foundation from my Diploma in Mechanical Engineering (9.13 GPA) from Government Polytechnic Nizamabad.</p>
+                
+                <div class="about-details">
+                    <div class="about-subsection">
+                        <h3><i class="fa-solid fa-bullseye"></i> Career Objective</h3>
+                        <p>Aspiring mechanical engineer seeking to leverage my expertise in CAD design, material testing, and innovative project development. Passionate about combining theoretical knowledge with practical applications in mechanical engineering.</p>
+                    </div>
+
+                    <div class="about-subsection">
+                        <h3><i class="fa-solid fa-star"></i> Specializations</h3>
+                        <ul>
+                            <li>Advanced CAD Modeling using CATIA V5 and Fusion 360</li>
+                            <li>Mechanical Systems Design and Analysis</li>
+                            <li>Material Testing and Characterization</li>
+                            <li>Renewable Energy Systems (Wind Turbine Design)</li>
+                            <li>Biomedical Engineering (3D Bioprinting)</li>
+                        </ul>
+                    </div>
+
+                    <div class="about-subsection">
+                        <h3><i class="fa-solid fa-lightbulb"></i> Research Interests</h3>
+                        <p>Currently focused on material properties evaluation of SS 316LN, exploring innovative wind turbine designs, and developing affordable bioprinting solutions. Keen interest in sustainable engineering and advanced manufacturing technologies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3>CAD & Design</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-progress="95">
+                        <div class="skill-info">
+                            <span class="skill-name">SolidWorks</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-progress="90">
+                        <div class="skill-info">
+                            <span class="skill-name">AutoCAD</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-progress="85">
+                        <div class="skill-info">
+                            <span class="skill-name">Fusion 360</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3>Analysis & Simulation</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-progress="88">
+                        <div class="skill-info">
+                            <span class="skill-name">ANSYS</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-progress="85">
+                        <div class="skill-info">
+                            <span class="skill-name">FEA</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-progress="80">
+                        <div class="skill-info">
+                            <span class="skill-name">CFD</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3>Manufacturing & Prototyping</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-progress="92">
+                        <div class="skill-info">
+                            <span class="skill-name">3D Printing</span>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-progress="85">
+                        <div class="skill-info">
+                            <span class="skill-name">CNC Programming</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-progress="88">
+                        <div class="skill-info">
+                            <span class="skill-name">GD&T</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2>Education & Projects</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2022 - 2025</div>
+                    <h3 class="timeline-title">B.Tech in Mechanical Engineering</h3>
+                    <div class="timeline-company">Vidya Jyothi Institute of Technology</div>
+                    <p class="timeline-description">
+                        • Currently in final year with CGPA: 8.13/10<br>
+                        • Specializing in advanced mechanical engineering concepts<br>
+                        • Actively participating in technical projects and symposiums<br>
+                        • Expected graduation: 2025
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2024 - Present</div>
+                    <h3 class="timeline-title">Material Properties Evaluation Project</h3>
+                    <div class="timeline-company">Current Academic Project</div>
+                    <p class="timeline-description">
+                        • Evaluating mechanical properties of SS 316LN material<br>
+                        • Conducting comprehensive material testing including:<br>
+                        &nbsp;&nbsp;- Tensile testing<br>
+                        &nbsp;&nbsp;- Impact testing<br>
+                        &nbsp;&nbsp;- Fatigue testing<br>
+                        • Analyzing and documenting test results for material characterization
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2024</div>
+                    <h3 class="timeline-title">Bioprinting Innovation</h3>
+                    <div class="timeline-company">IMP 2024, Nat-Foe Symposium</div>
+                    <p class="timeline-description">
+                        • Optimized syringe-based extruder designs for bioprinting<br>
+                        • Focused on improving affordability and efficiency<br>
+                        • Collaborated with a team of 4 members<br>
+                        • Presented research at the national symposium
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2024</div>
+                    <h3 class="timeline-title">Hybrid Wind Turbine Design</h3>
+                    <div class="timeline-company">Innovation Project</div>
+                    <p class="timeline-description">
+                        • Modeled a Hybrid Vertical Axis Helical Wind Turbine<br>
+                        • Integrated Savonius and Darrieus turbine designs<br>
+                        • Optimized for domestic power generation<br>
+                        • Created comprehensive design documentation
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2023 - 2024</div>
+                    <h3 class="timeline-title">Advanced CAD Projects Portfolio</h3>
+                    <div class="timeline-company">GrabCAD Projects</div>
+                    <p class="timeline-description">
+                        • Designed Motor Blower Assembly with detailed components for industrial applications<br>
+                        • Modeled complex Radial Engine Assembly demonstrating advanced part design skills<br>
+                        • Created Surface Model of an Airplane using CATIA V5's Generative Shape Design<br>
+                        • Developed detailed models including:<br>
+                        &nbsp;&nbsp;- Single Plate Clutch with full assembly<br>
+                        &nbsp;&nbsp;- Conventional Tailstock for machine tools<br>
+                        &nbsp;&nbsp;- 4-Stroke I.C Engine with complete mechanism<br>
+                        &nbsp;&nbsp;- Helical VAWT turbine combining Savonius and Darrieus designs<br>
+                        • Demonstrated proficiency in CATIA V5 through various mechanical components
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2019 - 2022</div>
+                    <h3 class="timeline-title">Diploma in Mechanical Engineering</h3>
+                    <div class="timeline-company">Government Polytechnic Nizamabad</div>
+                    <p class="timeline-description">
+                        • Completed diploma with excellent academic performance<br>
+                        • Aggregate GPA: 9.13/10<br>
+                        • Gained strong foundation in mechanical engineering principles<br>
+                        • Developed practical skills through hands-on laboratory work
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2022</div>
+                    <h3 class="timeline-title">Mini CNC Milling Machine Project</h3>
+                    <div class="timeline-company">Major Academic Project</div>
+                    <p class="timeline-description">
+                        • Designed and manufactured a functional mini CNC milling machine<br>
+                        • Implemented stepper motors and linear guides for precise movement<br>
+                        • Created 3D models using Fusion 360 software<br>
+                        • Configured and implemented GRBL software for machine control<br>
+                        • Successfully demonstrated practical application of CAD/CAM principles
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Project Gallery</h2>
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="cad">CAD Models</button>
+            <button class="filter-btn" data-filter="mechanical">Mechanical</button>
+            <button class="filter-btn" data-filter="research">Research Projects</button>
+        </div>
+        <div class="projects-grid">
+            <!-- CNC Project -->
+            <div class="project-card" data-category="mechanical">
+                <div class="project-image">
+                    <img src="assets/projects/CNC.jpg" alt="Mini CNC Machine">
+                    <div class="project-overlay">
+                        <div class="project-details">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Custom CNC Design</li>
+                                <li>Precision Control</li>
+                                <li>3-Axis System</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Mini CNC Milling Machine</h3>
+                    <p>Custom-designed compact CNC machine for precision manufacturing</p>
+                    <div class="project-tags">
+                        <span>CNC</span>
+                        <span>Manufacturing</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Syringe Extruder Project -->
+            <div class="project-card" data-category="mechanical">
+                <div class="project-image">
+                    <img src="assets/projects/syrige extruder.jpg" alt="Syringe Extruder">
+                    <div class="project-overlay">
+                        <div class="project-details">
+                            <h4>Innovation:</h4>
+                            <ul>
+                                <li>Bioprinting System</li>
+                                <li>Precision Control</li>
+                                <li>Cost-effective Design</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Bioprinting Syringe Extruder</h3>
+                    <p>Optimizing Syringe based Extruder for Affordable Bioprinting</p>
+                    <div class="project-tags">
+                        <span>Biomedical</span>
+                        <span>Innovation</span>
+                        <span>Research</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Material Testing Project -->
+            <div class="project-card" data-category="research">
+                <div class="project-image">
+                    <img src="assets/projects/SS 316 LN (1).jpg" alt="SS 316LN Testing">
+                    <div class="project-overlay">
+                        <div class="project-details">
+                            <h4>Research Focus:</h4>
+                            <ul>
+                                <li>Material Properties</li>
+                                <li>Stress Analysis</li>
+                                <li>Performance Testing</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>SS 316LN Properties Evaluation</h3>
+                    <p>Research on material properties and performance analysis</p>
+                    <div class="project-tags">
+                        <span>Materials</span>
+                        <span>Research</span>
+                        <span>Analysis</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CAD Project - Radial Engine -->
+            <div class="project-card" data-category="cad">
+                <div class="project-image">
+                    <img src="assets/projects/Screenshot 2024-10-29 192623.png" alt="Radial Engine Model">
+                    <div class="project-overlay">
+                        <div class="project-details">
+                            <h4>Design Features:</h4>
+                            <ul>
+                                <li>Complex Assembly Design</li>
+                                <li>Detailed Components</li>
+                                <li>Motion Analysis</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Modelling of Radial Engine</h3>
+                    <p>Advanced 3D modeling and assembly of a radial engine with detailed components</p>
+                    <div class="project-tags">
+                        <span>CAD</span>
+                        <span>Assembly</span>
+                        <span>Engineering</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Research Project - Hybrid VAWT -->
+            <div class="project-card" data-category="research">
+                <div class="project-image">
+                    <img src="assets/projects/Screenshot 2024-11-04 222600.png" alt="Hybrid VAWT Design">
+                    <div class="project-overlay">
+                        <div class="project-details">
+                            <h4>Research Focus:</h4>
+                            <ul>
+                                <li>Innovative Blade Design</li>
+                                <li>Aerodynamic Optimization</li>
+                                <li>Sustainable Energy Focus</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Hybrid VAWT Research</h3>
+                    <p>Research and development of an advanced vertical axis wind turbine optimized for urban environments</p>
+                    <div class="project-tags">
+                        <span>Research</span>
+                        <span>Renewable Energy</span>
+                        <span>Innovation</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional CAD Project -->
+            <div class="project-card" data-category="cad">
+                <div class="project-image">
+                    <img src="assets/projects/Screenshot 2025-04-05 212604.png" alt="Technical Design">
+                    <div class="project-overlay">
+                        <div class="project-details">
+                            <h4>Design Features:</h4>
+                            <ul>
+                                <li>Technical Drawing</li>
+                                <li>Precision Design</li>
+                                <li>Component Analysis</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Technical Component Design</h3>
+                    <p>Precision engineering and component design project</p>
+                    <div class="project-tags">
+                        <span>CAD</span>
+                        <span>Technical</span>
+                        <span>Engineering</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-more">
+            <a href="https://grabcad.com/saiteja.chepuri-1/models" target="_blank" class="cta-button">
+                View More Projects on GrabCAD
+                <i class="fa-solid fa-external-link-alt"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <div class="contact-details">
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/sai-teja-chepuri-16b226257" target="_blank">Connect with me on LinkedIn</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <a href="mailto:chepurisaiteja1234@gmail.com">chepurisaiteja1234@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Name</label>
+                    <div class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                    <div class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required></textarea>
+                    <label for="message">Message</label>
+                    <div class="error-message"></div>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sai-teja-chepuri-16b226257" target="_blank" aria-label="LinkedIn Profile">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://grabcad.com/saiteja.chepuri-1/models" target="_blank" aria-label="GrabCAD Profile">
+                    <i class="fa-solid fa-cubes"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Saiteja. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
